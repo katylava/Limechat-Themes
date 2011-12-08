@@ -3,7 +3,7 @@
 
 log-view:
     nickname-format: '%n'
-    scroller-highlight-color: '#d33b54'
+    scroller-highlight-color: '#FE6846'
 
 member-list:
     font-family: 'Lucida Grande'
@@ -25,7 +25,7 @@ server-tree:
     highlight:
         color: '#D01B24'
     newtalk:
-        color: '#d33b54'
+        color: '#FE6846'
     unread:
         color: '#FE6846'
     normal:
