@@ -1,0 +1,362 @@
+html.normal {
+    color: #4b4b4b;
+    background-color: #FCF4DC;
+    font: 12px/1.3em 'Lucida Grande' sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body.normal .sender[type=myself]:hover:before {
+    content: "• ";
+    color: #bebebe;
+}
+
+body.normal a img {
+}
+
+body.normal img {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding: 2px;
+    max-width: 95%;
+    border: 1px solid #ccc;
+}
+
+body.normal a:link, a:visited, a:hover, a:active {
+    color: #184586;
+}
+
+body.normal .text span {
+    display: block;
+}
+
+body.normal .line {
+    padding: 0;
+    margin: 0;
+    background-color: #DEEDDD;
+    line-height: 130%;
+}
+
+body.normal .event {
+    padding: 0.2em;
+    margin: 0;
+    color: #363636;
+    background: #e5edf7;
+}
+
+body.normal .text span.message {
+    border-bottom: #efefef 1px solid;
+}
+
+body.normal .sender {
+    padding: 0.4em 0;
+    float: left;
+    text-align: right;
+    font-weight: bold;
+    width: 130px;
+    overflow: hidden;
+}
+
+body.normal .line .message {
+    margin: 0 0 0 134px;
+    padding: 0.4em;
+    color: #303030;
+    border-left: 1px solid #dcdcdc;
+    background-color: #FCF4DC;
+}
+
+body.normal .event .message {
+    margin: 0;
+    padding: 0.4em;
+    border: 0;
+    color: #a6b9c0;
+    background: none;
+    font: bold 11px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+body.normal .line .time {
+    float: right;
+    margin-right: 6px;
+    margin-top: 5px;
+    margin-left: 4px;
+    color: #999;
+    font: bold 11px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+body.normal .line .place {
+    display: block;
+    color: #999;
+    margin: 0;
+    font-size: 12px;
+}
+
+body.normal .event .time {
+    margin: 1px 3px;
+    float: right;
+    text-align: right;
+    font-size: 11px;
+    color: #a6b9c0;
+}
+
+body.normal .line[highlight=true] span.message {
+    background-color: #ffc;
+}
+
+body.normal .member {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+body.normal .member:hover {
+    text-decoration: underline;
+}
+
+body.normal {
+    
+}
+
+
+body[type=channel] {
+    
+}
+
+body[type=talk] {
+    
+}
+
+
+body.normal hr {
+    margin: 0;
+    padding: 2px;
+    border: none;
+    background-color: #d33b54;
+    height: 2px;
+    text-align: center;
+}
+
+a {
+    
+}
+
+/* lines */
+
+.line[alternate=even] {
+    
+}
+
+.line[alternate=odd] {
+    
+}
+
+.line[type=action] .sender:before {
+    content: "";
+}
+
+body.normal .line[type=action] .sender[type=normal] {
+    font-style: italic;
+    color: #303030;
+}
+
+body.normal .line[type=action] .message {
+    background: #DEEDDD;
+    border-left: none;
+    margin: 0 0 0 130px;
+}
+
+body.normal .url {
+    word-break: break-all;
+}
+
+body.normal .address {
+    text-decoration: underline;
+    word-break: break-all;
+}
+
+body.normal .highlight {
+    color: #d33b54;
+    font-weight: bold;
+}
+
+/* nickname for text messages */
+
+body.normal .sender[type=myself] {
+    color: #333;
+}
+
+body.normal .sender[type=normal] {
+    color: #333;
+}
+
+body.normal .sender[type=normal][colornumber='0'] {
+  color: #A57705;
+}
+
+body.normal .sender[type=normal][colornumber='1'] {
+  color: #BD3612;
+}
+
+body.normal .sender[type=normal][colornumber='2'] {
+  color: #D01B24;    
+}
+
+body.normal .sender[type=normal][colornumber='3'] {
+  color: #C61B6E;    
+}
+
+body.normal .sender[type=normal][colornumber='4'] {
+  color: #5859B7;  
+}
+
+body.normal .sender[type=normal][colornumber='5'] {
+  color: #2075C7; 
+}
+
+body.normal .sender[type=normal][colornumber='6'] {
+  color: #259185; 
+}
+
+body.normal .sender[type=normal][colornumber='7'] {
+  color: #728905; 
+}
+
+body.normal .sender[type=normal][colornumber='8'] {
+  color: #6E5500;
+}
+
+body.normal .sender[type=normal][colornumber='9'] {
+  color: #76250B;
+}
+
+body.normal .sender[type=normal][colornumber='10'] {
+  color: #830009;
+}
+
+body.normal .sender[type=normal][colornumber='11'] {
+  color: #7B003C;
+    
+}
+
+body.normal .sender[type=normal][colornumber='12'] {
+  color: #32337F;
+  color: #9F8DF0;
+}
+
+body.normal .sender[type=normal][colornumber='13'] {
+  color: #074286;   
+}
+
+body.normal .sender[type=normal][colornumber='14'] {
+  color: #10574D; 
+}
+
+body.normal .sender[type=normal][colornumber='15'] {
+  color: #435300; 
+}
+
+/* message body */
+
+body.normal .message[type=system] {
+    color: #303030;
+}
+
+body.normal .message[type=error] {
+    color: #d14025;
+    font-weight: bold;
+}
+
+body.normal .message[type=reply] {
+    color: #a6b9c0;
+}
+
+body.normal .message[type=error_reply] {
+    color: #d33b54;
+}
+
+body.normal .message[type=dcc_send_send] {
+    color: #a6b9c0;
+}
+
+body.normal .message[type=dcc_send_receive] {
+    color: #153b7c;
+}
+
+body.normal .message[type=privmsg] {
+    
+}
+
+body.normal .message[type=notice] {
+    color: #888;
+}
+
+body.normal .message[type=action] {
+    color: #303030;
+    font-style: italic;
+    font-weight: bold;
+}
+
+body.normal .message[type=join] {
+    color: #a6b9c0;
+}
+
+body.normal .message[type=part] {
+    color: #a6b9c0;
+}
+
+body.normal .message[type=kick] {
+    color: #303030;
+}
+
+body.normal .message[type=quit] {
+    color: #a6b9c0;
+}
+
+body.normal .message[type=kill] {
+    color: #a6b9c0;
+}
+
+body.normal .message[type=nick] {
+    color: #a6b9c0;
+}
+
+body.normal .message[type=mode] {
+    color: #a6b9c0;
+}
+
+body.normal .message[type=topic] {
+    color: #a6b9c0;
+}
+
+body.normal .message[type=invite] {
+    color: #a6b9c0;
+}
+
+body.normal .message[type=wallops] {
+    color: #a6b9c0;
+}
+
+body.normal .message[type=debug_send] {
+    color: #aaa;
+}
+
+body.normal .message[type=debug_receive] {
+    color: #444;
+}
+
+/* Console colors */
+
+html.console { background: #81908F; }
+body[type=console] { font-family: Inconsolata; }
+body.console .event { color: #a6b9c0; background: #708183; }
+body.console .event .time { color: #a6b9c0; }
+body.console .event .message { color: #a6b9c0; }
+body.console .event .place { color: #a6b9c0; }
+body.console .highlight { color: #B3C94D; font-weight: normal; text-decoration: underline; }
+body.console .line[highlight=true] { background-color: #259185; }
+body.console .line { color: #042028; }
+body.console .time { color: #52676F; }
+body.console .message { color: #435300; }
+body.console .place { color: #52676F; }
+body.console .sender { color: #79E4D6; margin-right: 1em; }
+body.console a { color: #DFB043; }
