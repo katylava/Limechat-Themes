@@ -6,8 +6,8 @@ log-view:
     scroller-highlight-color: '#FE6846'
 
 member-list:
-    font-family: 'Lucida Grande'
-    font-size: 12
+    font-family: 'Source Sans Pro'
+    font-size: 16
     color: '#444'
     background-color: '#E9E2CB'
     operator:
@@ -21,6 +21,8 @@ member-list:
             bottom-color: '#445b73'
 
 server-tree:
+    font-family: 'Source Sans Pro'
+    font-size: 16
     background-color: '#465A61'
     highlight:
         color: '#EE4851'

@@ -1,7 +1,7 @@
 html.normal {
     color: #4b4b4b;
     background-color: #FCF4DC;
-    font: 12px/1.3em 'Lucida Grande' sans-serif;
+    font: 12px/1.3em 'Source Code Pro' sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -31,6 +31,9 @@ body.normal a:link, a:visited, a:hover, a:active {
 body.normal .text span {
     display: block;
 }
+body.normal .text span.effect {
+    display: inline;
+}
 
 body.normal .line {
     padding: 0;
@@ -55,12 +58,12 @@ body.normal .sender {
     float: left;
     text-align: right;
     font-weight: bold;
-    width: 130px;
+    width: 16em;
     overflow: hidden;
 }
 
 body.normal .line .message {
-    margin: 0 0 0 134px;
+    margin: 0 0 0 17em;
     padding: 0.4em;
     color: #303030;
     border-left: 1px solid #dcdcdc;
@@ -73,7 +76,7 @@ body.normal .event .message {
     border: 0;
     color: #a6b9c0;
     background: none;
-    font: bold 11px "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font: bold 11px "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 
 body.normal .line .time {
@@ -82,7 +85,7 @@ body.normal .line .time {
     margin-top: 5px;
     margin-left: 4px;
     color: #999;
-    font: bold 11px "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font: bold 11px "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 
 body.normal .line .place {
@@ -347,7 +350,7 @@ body.normal .message[type=debug_receive] {
 /* Console colors */
 
 html.console { background: #81908F; }
-body[type=console] { font-family: Inconsolata; }
+body[type=console] { font-family: 'Source Code Pro'; }
 body.console .event { color: #a6b9c0; background: #708183; }
 body.console .event .time { color: #a6b9c0; }
 body.console .event .message { color: #a6b9c0; }
